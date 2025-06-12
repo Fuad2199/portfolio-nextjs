@@ -9,7 +9,9 @@ interface RoutLayoutProps {
 const RootLayout = ({ children }: RoutLayoutProps) => {
   return <div>
     <Header/>
+    <div className="min-h-screen mt-24">
     {children}
+    </div>
     <Footer/>
     </div>;
 };
