@@ -22,17 +22,17 @@ const Hero = () => {
           <TypeAnimation
             sequence={[
               // Same substring at the start will only be typed out once, initially
-              "I focused responsive design",
+              "I focus on responsive design",
               2000,
-              "I create component based architecture",
+              "I build component-based architecture",
               3000,
-              "I test with ci-cd pipeline",
+              "I test with CI/CD pipelines",
               3000,
             ]}
             wrapper="span"
             speed={50}
             className="text-3xl md:text-5xl font-bold font-poppins mb-4 text-amber-500"
-            style={{ fontSize: "2em", display: "inline-block" }}
+            style={{ font: "Helvetica", fontSize: "2em", display: "inline-block" }}
             repeat={Infinity}
           />
 

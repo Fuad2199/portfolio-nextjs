@@ -7,14 +7,14 @@ export const imageUrl = process.env.NEXT_PUBLIC_PORTFOLIO_IMAGE;
 
 const AboutMe = () => {
   const skills = [
-    { name: "HTML5, CSS3, Javascript, Front End Fundamentals", percent: 80 },
-    { name: "SASS, Tailwind CSS, Styled Components", percent: 80 },
+    { name: "HTML5, CSS3, Javascript, Front End Fundamentals", percent: 85 },
+    { name: "SASS, Tailwind CSS, Styled Components", percent: 75 },
     { name: "Flexbox, Grid, Mobile-first design, Media queries", percent: 80 },
     { name: "	ES6+, TypeScript", percent: 60 },
     { name: "	React.js, Next.js, Component based Architecture", percent: 70 },
     { name: "Redux Toolkit", percent: 60 },
     { name: "Next.js App Router, SSR/SSG/ISR", percent: 60 },
-    { name: "Jest, React Testing Library", percent: 50 },
+    { name: "Jest, React Testing Library", percent: 75 },
     { name: "ci-cd pipeline + GitHub Actions", percent: 50 },
     { name: "Node.js, Express.js, MongoDB", percent: 60 },
   ];
