@@ -40,9 +40,10 @@ const Hero = () => {
             Front End Developer
           </p>
           <p className="text-gray-400 text-lg mb-6 max-w-md">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut omnis
-            iusto sed, nulla facere ab tempora maiores vel cumque mollitia eius.
-            Porro, sequi tenetur quae nam non iure laborum officiis.
+            I&apos;m a responsible and creative front-end developer with a fun and
+            curious mindset. I&apos;m passionate about building user-friendly and
+            visually engaging web experiences. Scroll down to learn more about
+            my journey, skills, and projects.
           </p>
           <div>
             <Button className="bg-amber-500 hover:bg-amber-600 text-white px-4 py-6 cursor-pointer">
