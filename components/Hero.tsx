@@ -3,8 +3,9 @@
 import React from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 export const imageUrl = process.env.NEXT_PUBLIC_PORTFOLIO_IMAGE;
 
@@ -66,24 +67,38 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center gap-3 mt-10">
-            <Button
-              variant={"secondary"}
-              className="cursor-pointer hover:scale-125 transition-all duration-700"
+            <Link
+              href="https://www.linkedin.com/in/fuad-beybutov-05934728b/"
+              className="w-6 h-6 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferer"
             >
-              <FaLinkedin />
-            </Button>
-            <Button
-              variant={"secondary"}
-              className="cursor-pointer hover:scale-125 transition-all duration-700"
+              <FaLinkedin className="w-6 h-6 hover:text-blue-500" />
+            </Link>
+            <Link
+              href="https://wa.me/+994504993511"
+              className="w-6 h-6 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferer"
             >
-              <FaWhatsapp />
-            </Button>
-            <Button
-              variant={"secondary"}
-              className="cursor-pointer hover:scale-125 transition-all duration-700"
+              <FaWhatsapp className="w-6 h-6 hover:text-blue-500" />
+            </Link>
+            <Link
+              href="https://t.me/fuadbeybutov21"
+              className="w-6 h-6 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferer"
             >
-              <FaTelegram />
-            </Button>
+              <FaTelegram className="w-6 h-6 hover:text-blue-500" />
+            </Link>
+            <Link
+              href="https://github.com/Fuad2199"
+              className="w-6 h-6 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <FaGithub className="w-6 h-6 hover:text-blue-500" />
+            </Link>
           </div>
         </div>
       </section>

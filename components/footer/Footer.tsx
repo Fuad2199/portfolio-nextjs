@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import {
+  FaGithub,
   FaLinkedin,
   FaTelegram,
   FaWhatsapp,
@@ -37,7 +38,7 @@ const Footer = () => {
               <FaLinkedin className="w-6 h-6 hover:text-blue-500" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/fuad-beybutov-05934728b/"
+              href="https://wa.me/+994504993511"
               className="w-6 h-6 hover:text-blue-500"
               target="_blank"
               rel="noopener noreferer"
@@ -45,12 +46,20 @@ const Footer = () => {
               <FaWhatsapp className="w-6 h-6 hover:text-blue-500" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/fuad-beybutov-05934728b/"
+              href="https://t.me/fuadbeybutov21"
               className="w-6 h-6 hover:text-blue-500"
               target="_blank"
               rel="noopener noreferer"
             >
               <FaTelegram className="w-6 h-6 hover:text-blue-500" />
+            </Link>
+            <Link
+              href="https://github.com/Fuad2199"
+              className="w-6 h-6 hover:text-blue-500"
+              target="_blank"
+              rel="noopener noreferer"
+            >
+              <FaGithub className="w-6 h-6 hover:text-blue-500" />
             </Link>
           </div>
         </div>
