@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import { ModeToggle } from "../ModeToggle";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
+import DownloadCV from "../DownloadCV";
 
 export const menuItems = [
     {id: 1, label: "Home", href: "#home"},
@@ -31,7 +32,7 @@ const Header = () => {
             </nav>
             <div className="flex items-center space-x-4">
                 <Button className="hidden md:flex bg-amber-500 hover:bg-amber-600 text-white cursor-pointer">
-                    Download CV
+                    <DownloadCV/>
                 </Button>
                 <ModeToggle/>
                 <MobileMenu/>

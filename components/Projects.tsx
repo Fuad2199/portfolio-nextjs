@@ -60,7 +60,7 @@ const projectsData = [
     category: 'Landing Page',
     title: 'New Portfolio',
     imageUrl:
-      'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749936520/my-portfolio_szqtx1.jpg',
+      'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749978360/new-portfolio_eudzva.png',
     url: 'https://portfolio-nextjs-rho-one.vercel.app/',
   },
   {
@@ -91,7 +91,7 @@ const Projects = () => {
           p => p.category === selectedCategory
         );
   return (
-    <section className="py-10">
+    <section id='projects' className="py-10">
       <div className="max-w-6xl mx-auto px-4">
         <Container maxWidth="lg" sx={{ py: 8 }}>
           <Box textAlign="center" mb={4}>

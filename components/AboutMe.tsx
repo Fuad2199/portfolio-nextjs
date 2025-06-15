@@ -19,7 +19,7 @@ const AboutMe = () => {
     { name: "Node.js, Express.js, MongoDB", percent: 60 },
   ];
   return (
-    <section className="py-16">
+    <section id="about" className="py-16">
       <div className="max-w-screen-xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start gap-10">
         <div className="relative md:h-80 md:w-80 lg:w-[450px] lg:h-[450px] rounded-full overflow-hidden">
           <Image
