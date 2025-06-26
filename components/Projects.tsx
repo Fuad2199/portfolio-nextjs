@@ -79,6 +79,14 @@ const projectsData = [
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749937707/coffe-website_i4yrz2.png',
     url: 'https://responsive-coffee-website-javascrip.vercel.app/',
   },
+  {
+    id: 8,
+    category: 'Spend Flow',
+    title: 'Simple Finance Website',
+    imageUrl:
+      'https://res.cloudinary.com/dhzekqgvu/image/upload/v1750962290/spendflow_duos78.png',
+    url: 'https://spend-flow.vercel.app/',
+  },
 ];
 
 const Projects = () => {
