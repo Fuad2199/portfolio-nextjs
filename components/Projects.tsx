@@ -27,6 +27,7 @@ const projectsData = [
     id: 1,
     category: 'Landing Page',
     title: 'Agency Landing Page',
+    technology: 'React',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749851316/agency-landing-page_ufebj2.png',
     url: 'https://virtual-agency.vercel.app/',
@@ -35,6 +36,7 @@ const projectsData = [
     id: 2,
     category: 'Simple Website',
     title: 'Github User Info',
+    technology: 'React',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749851701/github-userinfo_fwkbvu.png',
     url: 'https://github-userinfo.vercel.app/',
@@ -43,6 +45,7 @@ const projectsData = [
     id: 3,
     category: 'Front End Development',
     title: 'Rock Paper Scissors game',
+    technology: 'Javascript',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749851835/rock-paper-scissors_omhyww.png',
     url: 'https://rock-paper-scissors-game-mu-five.vercel.app/',
@@ -51,6 +54,7 @@ const projectsData = [
     id: 4,
     category: 'Front End Development',
     title: 'Old Portfolio',
+    technology: 'React',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749933634/old-portfolio_vr2vjt.png',
     url: 'https://portfolio-website-orpin-gamma.vercel.app/',
@@ -59,6 +63,7 @@ const projectsData = [
     id: 5,
     category: 'Landing Page',
     title: 'New Portfolio',
+    technology: 'Nextjs-15',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749978360/new-portfolio_eudzva.png',
     url: 'https://portfolio-nextjs-rho-one.vercel.app/',
@@ -67,6 +72,7 @@ const projectsData = [
     id: 6,
     category: 'Landing Page',
     title: 'Admin Dashboard',
+    technology: 'React',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749936160/admin-panel_jxtu92.jpg',
     url: 'https://admin-dashboard-javascript-bootstra.vercel.app/',
@@ -75,17 +81,37 @@ const projectsData = [
     id: 7,
     category: 'Landing Page',
     title: 'Responsive Coffee Website',
+    technology: 'Javascript',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1749937707/coffe-website_i4yrz2.png',
     url: 'https://responsive-coffee-website-javascrip.vercel.app/',
   },
   {
     id: 8,
-    category: 'Spend Flow',
+    category: 'Simple Website',
     title: 'Simple Finance Website',
+    technology: 'React',
     imageUrl:
       'https://res.cloudinary.com/dhzekqgvu/image/upload/v1750962290/spendflow_duos78.png',
     url: 'https://spend-flow.vercel.app/',
+  },
+  {
+    id: 9,
+    category: 'Rest API',
+    title: 'Jobs API',
+    technology: 'Node.js',
+    imageUrl:
+      'https://res.cloudinary.com/dhzekqgvu/image/upload/v1752105280/api_bnr3ju.jpg',
+    url: 'https://github.com/Fuad2199/Jobs-API-Swagger',
+  },
+  {
+    id: 10,
+    category: 'Forms',
+    title: 'Login',
+    technology: 'Javascript, Ajax',
+    imageUrl:
+      'https://res.cloudinary.com/dhzekqgvu/image/upload/v1752105018/computer-security-with-login-password-padlock_o6pjms.jpg',
+    url: 'https://github.com/Fuad2199/login-ajax-javascript',
   },
 ];
 
@@ -189,6 +215,13 @@ const Projects = () => {
                         sx={{ color: 'slategray' }}
                       >
                         {project.title}
+                      </Typography>
+                      <Typography
+                        variant="h6"
+                        mt={1}
+                        sx={{ color: 'slategray' }}
+                      >
+                        {project.technology}
                       </Typography>
                     </CardContent>
                   </Card>
